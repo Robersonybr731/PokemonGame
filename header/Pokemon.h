@@ -41,7 +41,7 @@ public:
 	void load_information() //讀進所有寶可夢的能力值
 	{
 		ifstream inFile;
-		inFile.open("pokemons.csv");
+		inFile.open("./doc/pokemons.csv");
 		monster Pokemon_info;
 		string HP, ATK, DEF, Speed, Ability;
 		while (getline(inFile, Pokemon_info.No, ','))

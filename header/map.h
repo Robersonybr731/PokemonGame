@@ -16,7 +16,7 @@ public:
 	void loadMap() //Åª¦a¹Ï
 	{
 		char mark[150];
-		ifstream inFile("yzumap.txt", ios::in);
+		ifstream inFile("./doc/yzumap.txt", ios::in);
 		while (inFile.getline(mark, sizeof(mark), '\n'))
 		{
 			maps.push_back(string(mark));

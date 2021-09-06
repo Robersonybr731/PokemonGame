@@ -1,4 +1,4 @@
-#include"player.h"
+#include"./header/player.h"
 #include"time.h"
 #include <windows.h> 
 
@@ -26,8 +26,9 @@ void SetWindow(int Width, int Height)
 
 int main()
 {
-	SetWindow(140, 60);
-	hidecursor(); //隱藏指標
+	SetWindow(100, 60);
+	CursorHider h;
+	//hidecursor(); //隱藏指標
 	saveDefaultColor(); //預設顏色(白色)
 	srand(time(NULL));
 	load(); //讀抗性倍率
@@ -49,7 +50,7 @@ int main()
 void load()
 {
 	ifstream inFile;
-	inFile.open("type.csv");
+	inFile.open("./doc/type.csv");
 	string value;
 	for (int i = 1; i < 19; i++)
 	{

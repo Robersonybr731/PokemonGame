@@ -80,7 +80,7 @@ public:
 		num >> txt_num;
 		if (pokemon_num < 10)
 			txt_num = "0" + txt_num;
-		graph = "assets/icons/color/0" + txt_num + ".txt";
+		graph = "./assets/icons/color/0" + txt_num + ".txt";
 		ifstream inFile(graph, ios::in);
 		string pokemon;
 		for (int i = 0; getline(inFile, pokemon); i++)
