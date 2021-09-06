@@ -31,8 +31,9 @@
 
 4. 回到Visual Studio -> 方案總管 -> 標頭檔 -> 右鍵加入現有檔案 -> 加入所有header的檔案
 
+<div align="center">
 <img src="./img/header.png" width = "50%" />
-
+</div>
 
 5. 專案->屬性->組態屬性->進階->字元集->使用多位元組字元集
 <div align="center">
