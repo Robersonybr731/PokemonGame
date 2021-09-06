@@ -1,6 +1,6 @@
 # PokemonGame
 ## Introduction
-本次專案是利用Visual Studio 2019 IDE 以C++進行軟體開發。
+本次專案是利用Visual Studio 2019 IDE 以C++程式語言進行軟體開發。
 
 遊戲是以Pokemon抓寶及道館對戰為方向設計，玩家可以利用W、S、A、D按鍵進行上下左右的移動。
 
