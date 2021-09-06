@@ -1,13 +1,32 @@
 #include"player.h"
 #include"time.h"
+#include <windows.h> 
+
 extern int values[35][6];  //34隻寶可夢的屬性
 extern const char *types[19] = { "","Normal","Fire","Water","Electric","Grass","Ice","Fighting","Poison","Ground",
 						   "Flying","Psychic","Bug","Rock","Ghost","Dragon","Dark","Steel","Fairy" }; //屬性名稱
 extern double type_num[19][19]; //抗性倍率
 void load(); //讀抗性倍率
+void SetWindow(int Width, int Height)
+{
+	_COORD coord;
+	coord.X = Width;
+	coord.Y = Height;
+
+	_SMALL_RECT Rect;
+	Rect.Top = 0;
+	Rect.Left = 0;
+	Rect.Bottom = Height - 1;
+	Rect.Right = Width - 1;
+
+	HANDLE Handle = GetStdHandle(STD_OUTPUT_HANDLE);      // Get Handle 
+	SetConsoleScreenBufferSize(Handle, coord);            // Set Buffer Size 
+	SetConsoleWindowInfo(Handle, TRUE, &Rect);            // Set Window Size 
+}
 
 int main()
 {
+	SetWindow(140, 60);
 	hidecursor(); //隱藏指標
 	saveDefaultColor(); //預設顏色(白色)
 	srand(time(NULL));
