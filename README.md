@@ -12,9 +12,43 @@
 
 最後遊戲結束時將依據積分的高低獲得不同的獎章圖示證明。
 ## Getting Started
+### 地圖介紹
+如下圖所示，
+
+Item | Symbol   
+------|-------
+草地|<font color="lightgreen">綠色 ;</font>
+湖畔|<font color="lightblue">藍色 ~</font>
+人物|<font color="#f00">紅色 @</font>
+道館入口|<font color="yellow">黃色 #</font>
+
+<!-- 草地為<font color="lightgreen">綠色 ;</font>
+
+湖畔為<font color="lightblue">藍色 ~</font>
+
+人物為<font color="#f00">紅色 @</font>
+
+道館入口為<font color="yellow">黃色 #</font> -->
+
+其餘白色部分代表著建築物及圍牆
+
+<div align="center">
+<img src="./img/map.png" width = "100%" />
+</div>
+
+### 抓取寶可夢
+當遇上Pokemon時可以看到Pokemon的資訊以及目前背包裡的Pokemon種類，藉此來判斷要不要抓取此Pokemon，若選擇抓取則有50%的機會抓取成功。
+<div align="center">
+<img src="./img/catch.png" width = "100%" />
+</div>
+
+### 道館挑戰
+當進入到館挑戰NPC時，按下空白鍵即可進行回合對戰，並且及時顯示每回合的攻擊資訊，當挑戰成功時將會取得積分。
+<div align="center">
+<img src="./img/fight.png" width = "100%" />
+</div>
 
 ## Usage
-
 本次專案是以Visual Studio 2019 IDE進行編寫，因此流程會以此為中心進行說明。
 
 1. 開啟 Visual Studio -> 建立新的專案 -> 空白專案 -> 建立
