@@ -17,9 +17,12 @@
 本次專案是以Visual Studio 2019 IDE進行編寫，因此流程會以此為中心進行說明。
 
 ### 環境建置
-Open Visual Studio -> 建立新的專案 -> 空白專案 -> 建立
-
-複製所有main.cpp、asset、header和doc的檔案到專案建立的資料夾中
+1. Open Visual Studio -> 建立新的專案 -> 空白專案 -> 建立
+<div style="float:left;border:solid 1px 000;margin:2px;">
+<img src="./img/create.png" width = "75%" />
+<img src="./img/empty.png" width = "75%" />
+</div>
+複製所有檔案到專案建立的資料夾中
 
 回到Visual Studio -> 方案總管 -> 資源檔 -> 右鍵加入現有檔案 -> 加入main.cpp
 
