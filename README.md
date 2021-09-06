@@ -19,8 +19,8 @@
 ### 環境建置
 1. Open Visual Studio -> 建立新的專案 -> 空白專案 -> 建立
 <div style="float:left;border:solid 1px 000;margin:2px;">
-<img src="./img/create.png" width = "50%" />
-<img src="./img/empty.png" width = "50%" />
+<img src="./img/create.png" width = "45%" />
+<img src="./img/empty.png" width = "45%" />
 </div>
 複製所有檔案到專案建立的資料夾中
 
