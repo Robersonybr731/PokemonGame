@@ -3,7 +3,7 @@
 ## Introduction
 以Pokemon抓寶及道館對戰為方向設計，玩家可以利用W、S、A、D按鍵進行上下左右的移動。
 
-遊戲中有34種Pokemon monsters，行經綠地以及湖中時，相對應的草屬性以及水屬性的Pokemon monsters出現的機率將會大幅提升。
+遊戲中有34種Pokemon monsters，行經綠地以及湖畔時，相對應的草屬性以及水屬性的Pokemon monsters出現的機率將會大幅提升。
 
 地圖是以元智大學校園進行設計，依據不同建設、景觀進行不同的圖樣編排。
 
